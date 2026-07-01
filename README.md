@@ -1,7 +1,7 @@
 <div align="center">
-<img src="https://media.nerzors.de/addons/nbk/nbk-banner_og_920x360.jpg" alt="Nerzors Blacklist Keeper Banner"/>
+<img src="https://media.nerzors.de/addons/nbk/nbkAddon_tRP3.final-v1.png" alt="Nerzors Blacklist Keeper Logo with Total RP3 Tooltip"/>
 
-<h1><img src="https://media.nerzors.de/addons/nbk/nbkAddon_tRP3.final-v1.png" width="32" alt="Nerzors Blacklist Keeper Logo with Total RP3 Tooltip"/>Total RP 3: Nerzors Blacklist Keeper Tooltip Support</h1>
+<h1>Total RP 3: Nerzors Blacklist Keeper Tooltip Support</h1>
 
 <p><i>See the players you blacklisted right inside Total RP 3's tooltip - without leaving the roleplay flow.</i></p>
 
