@@ -1,0 +1,38 @@
+## Interface: 120007, 120005, 50504, 11508
+## Title: Total RP 3: |cff48a8dcNerzors|r|cffbe4ae9BlacklistKeeper|r Tooltip Support
+## Notes: Allows Total RP 3 to show NerzorsBlacklistKeeper information on the tooltip.
+## Notes-deDE: Lässt Total RP 3 NerzorsBlacklistKeeper-Informationen im Tooltip anzeigen.
+## Author: Veplo, Nerzors
+## Version: 1.0.0
+## DefaultState: enabled
+## Group: totalRP3
+## Dependencies: NerzorsBlacklistKeeper
+## RequiredDeps: totalRP3, NerzorsBlacklistKeeper
+## SavedVariables: totalRP3_NBK_DB
+## IconTexture: Interface\AddOns\NerzorsBlacklistKeeper_Data\Textures\NerzorsBlacklistKeeper_Midnight_Logo
+
+## Category: Roleplay
+## Category-enUS: Roleplay
+## Category-deDE: Rollenspiel
+## Category-esES: Juego de rol
+## Category-esMX: Juego de rol
+## Category-frFR: Jeu de rôle
+## Category-itIT: Gioco di Ruolo
+## Category-koKR: 롤플레잉
+## Category-ptBR: Interpretação de Papel
+## Category-ruRU: Ролевая игра
+## Category-zhCN: 角色扮演
+## Category-zhTW: 角色扮演
+
+## X-Category: Tooltip, Roleplay
+## X-Website: https://github.com/Nerzors/tRP3_NBK
+## X-Curse-Project-ID: 1593811
+## X-Wago-ID: RNLkXeGo
+
+# Locales
+locale\locale.core.lua
+locale\locale.enUS.lua
+locale\locale.deDE.lua
+
+# Main
+totalRP3_NerzorsBlacklistKeeper.lua
