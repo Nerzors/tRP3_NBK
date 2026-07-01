@@ -1,3 +1,11 @@
 package-as: totalRP3_NerzorsBlacklistKeeper
 
 enable-nolib-creation: no
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - scripts
+  - github_Release
