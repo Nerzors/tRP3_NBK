@@ -14,8 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
+          # BigWigs Packager reads git history to resolve version
+          # substitutions like @project-version@ / @file-hash@.
+          # Shallow clones break that.
           fetch-depth: 0
 
       - name: Package and release
