@@ -12,7 +12,7 @@
   <a href="https://www.curseforge.com/wow/addons/trp3-nbk-tooltip">
     <img src="https://img.shields.io/badge/WoWUp-1B1F2B?style=for-the-badge&logoColor=A87CE8&labelColor=1B1F2B" alt="WoWUp"/>
   </a>
-  <a href="https://addons.wago.io/addons/trp3-nbk-tooltip">
+  <a href="https://addons.wago.io/addons/trp3-nbk">
     <img src="https://img.shields.io/badge/Wago.io-1B1F2B?style=for-the-badge&logoColor=A87CE8&labelColor=1B1F2B" alt="Wago.io"/>
   </a>
 </p>
@@ -55,7 +55,7 @@ Supported clients: **Retail · Classic Mists of Pandaria · Classic Era**.
 Install from any of:
 
 - [CurseForge](https://www.curseforge.com/wow/addons/trp3-nbk-tooltip)
-- [Wago.io](https://addons.wago.io/addons/trp3-nbk-tooltip)
+- [Wago.io](https://addons.wago.io/addons/trp3-nbk)
 - [WoWUp](https://www.curseforge.com/wow/addons/trp3-nbk-tooltip) (uses CurseForge feed or WagoIO)
 
 Make sure both Total RP 3 and NerzorsBlacklistKeeper are installed and enabled. this addon is inert without them.
