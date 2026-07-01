@@ -48,9 +48,6 @@ local function formatDate(ts)
     return date("%d.%m.%Y", ts)
 end
 
--- t.target is "Name-Realm" (or just "Name" on the player's own realm).
--- strsplit returns nil for missing parts, which is exactly what
--- LibNBKApi expects for "use the player's current realm". | note Veplo
 local function splitTarget(target)
     if not target or target == "" then return nil end
     local name, realm = strsplit("-", target, 2)

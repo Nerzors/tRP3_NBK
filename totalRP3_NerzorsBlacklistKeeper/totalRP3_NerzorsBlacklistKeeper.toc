@@ -27,7 +27,7 @@
 ## X-Category: Tooltip, Roleplay
 ## X-Website: https://github.com/Nerzors/tRP3_NBK
 ## X-Curse-Project-ID: 1593811
-## X-Wago-ID: RNLkXeGo
+## X-Wago-ID: v633A46b
 
 # Locales
 locale\locale.core.lua

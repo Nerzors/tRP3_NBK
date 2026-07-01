@@ -1,0 +1,16 @@
+# BigWigs Packager output (produced by the Release workflow / manual runs)
+.release/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Stray WoW dev artifacts
+*.wtf.bak
