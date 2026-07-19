@@ -126,7 +126,7 @@ Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
 | Co-Author | Nerzors |
 | Language | Multi-Language |
 | Game Versions | WoW Retail · Classic MoP · Classic Era |
-| Current Version | `1.0.0` |
+| Current Version | `1.0.1` |
 
 <br/>
 
