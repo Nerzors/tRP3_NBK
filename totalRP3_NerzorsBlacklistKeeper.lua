@@ -8,6 +8,9 @@ Requires both Total RP 3 and NerzorsBlacklistKeeper.
   https://github.com/Total-RP/Total-RP-3
   https://github.com/Nerzors/NerzorsBlacklistKeeper
 
+Author: Veplo (Discord: Veplo)
+Support: Nerzors.DE
+Copyright by Nerzors.DE
 ============================================================
 ]]--
 local ADDON_NAME, L = ...;
@@ -304,5 +307,27 @@ TRP3NBK_Frame.OpenConfigCommand = {
     helpLine = " " .. L.ADCOM_HELP,
     handler  = function() TRP3NBK_Frame:OpenConfig() end,
 }
+
+local function OpenConfig()
+    TRP3NBK_Frame:OpenConfig()
+end
+
+SLASH_NBKTRP31 = "/nbktrp3"
+
+TRP3_API.slash.registerCommand({
+    id = "nbktrp3",
+    helpLine = " " .. L.ADCOM_HELP,
+    handler = OpenConfig,
+})
+
+TRP3_API.slash.registerCommand({
+    id = "nbk",
+    helpLine = " " .. L.ADCOM_HELP,
+    handler = OpenConfig,
+})
+
+SlashCmdList["NBKTRP3"] = function(msg)
+    TRP3NBK_Frame:OpenConfig()
+end
 
 TRP3_API.slash.registerCommand(TRP3NBK_Frame.OpenConfigCommand)
