@@ -315,12 +315,6 @@ end
 SLASH_NBKTRP31 = "/nbktrp3"
 
 TRP3_API.slash.registerCommand({
-    id = "nbktrp3",
-    helpLine = " " .. L.ADCOM_HELP,
-    handler = OpenConfig,
-})
-
-TRP3_API.slash.registerCommand({
     id = "nbk",
     helpLine = " " .. L.ADCOM_HELP,
     handler = OpenConfig,

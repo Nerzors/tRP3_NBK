@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-07-19
+
+### Fixed
+- LUA Error
+
 ## [1.0.1] - 2026-07-19
 
 ### Fixed
@@ -34,6 +39,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Localized in English (`enUS`) and German (`deDE`) with a metatable fallback for other locales.
 - Client support: Retail, Classic Mists of Pandaria, Classic Era.
 
-[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.1...HEAD
+[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/Nerzors/tRP3_NBK/releases/tag/1.0.0
