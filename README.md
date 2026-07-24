@@ -37,6 +37,18 @@ appears directly inside the TRP3 character tooltip instead of the default Blizza
 
 <br/>
 
+## Addon Core Information
+
+| Property | Value |
+|----------|-------|
+| Author | Veplo |
+| Co-Author | Nerzors |
+| Language | Multi-Language |
+| Game Versions | WoW Retail · Classic MoP · Classic Era |
+| Current Version | `1.0.1` |
+
+<br/>
+
 ## Requirements
 
 | Addon | Minimum | Source |
@@ -115,18 +127,6 @@ The main NerzorsBlacklistKeeper addon's `/nbk` commands (add, remove, list, chec
 | Other locales | Fall back to English via metatable |
 
 Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
-
-<br/>
-
-## Addon Core Information
-
-| Property | Value |
-|----------|-------|
-| Author | Veplo |
-| Co-Author | Nerzors |
-| Language | Multi-Language |
-| Game Versions | WoW Retail · Classic MoP · Classic Era |
-| Current Version | `1.0.1` |
 
 <br/>
 
