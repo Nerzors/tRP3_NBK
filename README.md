@@ -45,7 +45,6 @@ appears directly inside the TRP3 character tooltip instead of the default Blizza
 | Co-Author | Nerzors |
 | Language | Multi-Language |
 | Game Versions | WoW Retail · Classic MoP · Classic Era |
-| Current Version | `1.0.1` |
 
 <br/>
 
