@@ -1,16 +1,10 @@
 name: Release
 
-# Triggers on any semver-ish tag push (v1.2.3 or plain 1.2.3).
-# Push a tag to trigger a release; the packager reads the tag as
-# the release version and uploads to CurseForge + Wago + GitHub.
 on:
   push:
     tags:
       - 'v[0-9]+.[0-9]+.[0-9]+*'
       - '[0-9]+.[0-9]+.[0-9]+*'
-
-# Needed so BigWigsMods/packager can create the GitHub Release
-# and attach the zip to it.
 permissions:
   contents: write
 
@@ -21,11 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
         with:
-          # BigWigs Packager reads git history to resolve version
-          # substitutions like @project-version@ / @file-hash@.
-          # Shallow clones break that.
           fetch-depth: 0
-
       - name: Package and release
         uses: BigWigsMods/packager@v2
         env:
