@@ -11,7 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - changelog 1.0.4 title as 1.0.3
-- Toc add patch tbc 2.5.6
+
+### delete
+- Toc remove patch tbc 2.5.6
 
 ## [1.0.4] - 2026-09-04
 

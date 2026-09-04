@@ -1,4 +1,4 @@
-## Interface: 120100, 11509, 20506, 50504
+## Interface: 120100, 11509, 50504
 ## Title: Total RP 3: |cff48a8dcNerzors|r|cffbe4ae9BlacklistKeeper|r Tooltip Support
 ## Notes: Allows Total RP 3 to show NerzorsBlacklistKeeper information on the tooltip.
 ## Notes-deDE: Lässt Total RP 3 NerzorsBlacklistKeeper-Informationen im Tooltip anzeigen.
