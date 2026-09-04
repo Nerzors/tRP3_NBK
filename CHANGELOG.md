@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2026-09-04
+
+### Change
+- Toc add patch classic 1.15.9
+
 ## [1.0.3] - 2026-08-11
 
 ### Change
@@ -47,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Localized in English (`enUS`) and German (`deDE`) with a metatable fallback for other locales.
 - Client support: Retail, Classic Mists of Pandaria, Classic Era.
 
-[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.3...HEAD
+[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.0.1
