@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.6] - 2026-09-18
+
+### Added
+- WoW: Forever (Patch 1.60.1)
+
 ## [1.0.5] - 2026-09-04
 
 ### Fixed
