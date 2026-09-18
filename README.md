@@ -44,7 +44,7 @@ appears directly inside the TRP3 character tooltip instead of the default Blizza
 | Author | Veplo |
 | Co-Author | Nerzors |
 | Language | Multi-Language |
-| Game Versions | WoW Retail · Classic MoP · Classic Era |
+| Game Versions | WoW Retail · Classic Forever · Classic MoP · Classic Era |
 
 <br/>
 
@@ -55,7 +55,7 @@ appears directly inside the TRP3 character tooltip instead of the default Blizza
 | **Total RP 3** | latest | [GitHub](https://github.com/Total-RP/Total-RP-3) · [CurseForge](https://www.curseforge.com/wow/addons/total-rp-3) |
 | **NerzorsBlacklistKeeper** | latest | [GitHub](https://github.com/Nerzors/NerzorsBlacklistKeeper) · see below for CurseForge / Wago links |
 
-Supported clients: **Retail · Classic Mists of Pandaria · Classic Era**.
+Supported clients: **Retail · Classic Forever · Classic Mists of Pandaria · Classic Era**.
 
 <br/>
 
@@ -132,19 +132,19 @@ Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
 ## Where to find NerzorsBlacklistKeeper
 
 **CurseForge**
-
-- Retail (12.0.7) - All-in-One: <https://www.curseforge.com/wow/addons/nerzorsblacklistkeeper>
-- Retail (12.0.7), Classic Era (1.15.8), Classic MoP (5.5.4) - Core Only: <https://www.curseforge.com/wow/addons/nerzorsblacklistkeepercore>
+> Retail (12.1.0) / Classic Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
+- All-in-One: <https://www.curseforge.com/wow/addons/nerzorsblacklistkeeper>
+- Core Only <https://www.curseforge.com/wow/addons/nerzorsblacklistkeepercore>
 
 **Wago.io**
-
-- Retail (12.0.7) - Core Only: <https://addons.wago.io/addons/nerzorsblacklistkeeper-core-only>
-- Retail (12.0.7) - All-in-One: <https://addons.wago.io/addons/nerzorsblacklistkeeper>
-- Classic Era (1.15.8) / Classic MoP (5.5.4) - Classic Core Only: <https://addons.wago.io/addons/nerzorsblacklistkeeper-classic>
+> Retail (12.1.0) / Classic Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
+- All-in-One: <https://addons.wago.io/addons/nerzorsblacklistkeeper>
+- Core Only: <https://addons.wago.io/addons/nerzorsblacklistkeepercore>
 
 **GitHub**
 
 - <https://github.com/Nerzors/NerzorsBlacklistKeeper>
+- <https://github.com/Nerzors/NerzorsBlacklistKeeperCore>
 
 <br/>
 
