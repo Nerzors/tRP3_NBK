@@ -122,6 +122,11 @@ The main NerzorsBlacklistKeeper addon's `/nbk` commands (add, remove, list, chec
 |--------|--------|
 | English (`enUS`) | Full |
 | Deutsch (`deDE`) | Full |
+| Italian (`itIT`) | Full |
+| Portuguese (`ptBR`) | Full |
+| Spanish (Latin America) (`esMX`) | Full |
+| Spanish (Spain) (`esES`) | Full |
+| Russian (`ruRU`) | Full |
 | Other locales | Fall back to English via metatable |
 
 Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
