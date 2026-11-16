@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 - players who are blacklisted, this was not displayed in the tooltip in Forever.
-- Fixed die durch Änderungen durch Stabel Release Version von NBK 2.x wurden behoben.
+- Issues resulting from changes in the stable release version of NBK 2.x have been fixed.
 
 ### Change
 - The built-in reasons from NBK were always displayed in English, now they are shown in the respective language.
