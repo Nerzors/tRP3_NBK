@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-16
+
+### Added
+- bump toc (retail: 12.1.7)
+
+### Fixed
+- players who are blacklisted, this was not displayed in the tooltip in Forever.
+- Fixed die durch Änderungen durch Stabel Release Version von NBK 2.x wurden behoben.
+
+### Change
+- The built-in reasons from NBK were always displayed in English, now they are shown in the respective language.
+
 ## [1.0.8] - 2026-10-18
 
 ### Added
@@ -80,7 +92,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Localized in English (`enUS`) and German (`deDE`) with a metatable fallback for other locales.
 - Client support: Retail, Classic Mists of Pandaria, Classic Era.
 
-[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.8...HEAD
+[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.1.0...HEAD
+[1.0.8]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.8...1.1.0
 [1.0.7]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.7...1.0.8
 [1.0.7]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.6...1.0.7
 [1.0.6]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.5...1.0.6
