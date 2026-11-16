@@ -43,7 +43,7 @@ appears directly inside the TRP3 character tooltip instead of the default Blizza
 | Author | Veplo |
 | Co-Author | Nerzors |
 | Language | Multi-Language |
-| Game Versions | WoW Retail · Classic Forever · Classic MoP · Classic Era |
+| Game Versions | WoW Retail · Forever · Classic MoP · Classic Era |
 
 <br/>
 

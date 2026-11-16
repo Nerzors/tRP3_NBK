@@ -15,6 +15,8 @@ Copyright by Nerzors.DE
 ]]--
 local ADDON_NAME, L = ...;
 
+local IS_FOREVER = WOW_PROJECT_CAMELOT ~= nil and WOW_PROJECT_ID == WOW_PROJECT_CAMELOT
+
 local TRP3NBK_Frame = CreateFrame("Frame")
 TRP3NBK_Frame:RegisterEvent("PLAYER_LOGIN")
 
@@ -58,6 +60,15 @@ local function splitTarget(target)
     return name, realm
 end
 
+local function toNbkName(name, realm)
+    if not IS_FOREVER or not name or not realm or realm == "" then
+        return name, realm
+    end
+    -- A server ID ("CAMWOWEU5Realm3PvE") has digits, a second name never.
+    if realm:find("%d") then return name, realm end
+    return name .. " " .. realm, nil
+end
+
 function TRP3NBK_Frame.Init()
 
     TRP3NBK_Frame.Config = {
@@ -90,7 +101,7 @@ function TRP3NBK_Frame.Init()
         local api = getApi()
         if not api then return end
 
-        local name, realm = splitTarget(t.target)
+        local name, realm = toNbkName(splitTarget(t.target))
         if not name then return end
 
         if TRP3_API.dashboard and TRP3_API.dashboard.isPlayerIC
@@ -133,9 +144,10 @@ function TRP3NBK_Frame.Init()
 
         if cfg(TRP3NBK_Frame.Config.SHOW_REASON) then
             local reason = entry.reason
-            if not reason or reason == "" then
-                reason = color(DIM_HEX, L.NO_REASON)
-            end
+			local NBK = _G.NBK
+            if reason and reason ~= "" and NBK and NBK.ReasonText then
+				reason = NBK:ReasonText(reason)
+			end
             TRP3_CharacterTooltip:AddLine(
                 color(DIM_HEX, L.REASON .. ":") .. " " .. reason,
                 mainColor.r, mainColor.g, mainColor.b, true)
