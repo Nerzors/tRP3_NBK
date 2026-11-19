@@ -66,5 +66,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Client support: Retail, Classic Mists of Pandaria, Classic Era.
 
 [Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.1.1...HEAD
-[1.0.8]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.1.1
+[1.1.1]: https://github.com/Nerzors/tRP3_NBK/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.8...1.1.0
+[1.0.8]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.0.8
 [1.0.0]: https://github.com/Nerzors/tRP3_NBK/releases/tag/1.0.0
