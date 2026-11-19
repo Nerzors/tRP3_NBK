@@ -2,8 +2,8 @@
 ## Title: Total RP 3: |cff48a8dcNerzors|r|cffbe4ae9BlacklistKeeper|r Tooltip Support
 ## Notes: Allows Total RP 3 to show NerzorsBlacklistKeeper information on the tooltip.
 ## Notes-deDE: Lässt Total RP 3 NerzorsBlacklistKeeper-Informationen im Tooltip anzeigen.
-## Author: Veplo, Nerzors
-## Version: 1.1.0
+## Author: Veplo
+## Version: 1.1.1
 ## DefaultState: enabled
 ## Group: totalRP3
 ## Dependencies: NerzorsBlacklistKeeper
