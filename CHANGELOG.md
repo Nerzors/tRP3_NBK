@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-11-19
+
+### Added
+- New: players on NBK’s Remember Me list show up with their star rating, notes, zone and Mythic+ run (the blacklist always wins). There’s a checkbox for it on your config page.
+- Add Local for new "Remember Me"
+
+### Fixed
+- BLACKLIST_CHANGED only hides the tooltip now, Hide + Show re-ran OnShow and added the NBK lines twice.
+- An entry without a reason no longer errors
+- The loading Hooks has been fixed, previously an error would occur in the background of the tooltip, or it would not display correctly.
+
+### Change
+- Secret names are skipped, and a pcall around the render keeps an error from breaking TRP3’s tooltip.
+
 ## [1.1.0] - 2026-11-16
 
 ### Added
@@ -28,47 +42,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	- Spanish (Latin America) localization by d3nn!s_novum
 	- French (French) localization by Sanoca - marécage-de-zangar.
 - for Russian i use Translator, If anything has been translated incorrectly, please report it! Simply edit `locale/locale.ruRU.lua` and submit a PR or open an [issue](https://github.com/Nerzors/tRP3_NBK/issues).
-
-## [1.0.7] - 2026-10-16
-
-### Added
-- bump toc (retail: 12.1.5)
-
-## [1.0.6] - 2026-09-18
-
-### Added
-- WoW: Forever (Patch 1.60.1)
-
-## [1.0.5] - 2026-09-04
-
-### Fixed
-- changelog 1.0.4 title as 1.0.3
-
-### delete
-- Toc remove patch tbc 2.5.6
-
-## [1.0.4] - 2026-09-04
-
-### Change
-- Toc add patch classic 1.15.9
-
-## [1.0.3] - 2026-08-11
-
-### Change
-- Toc add patch 12.1.0
-
-### Fixed
-- Version
-
-## [1.0.2] - 2026-07-19
-
-### Fixed
-- LUA Error
-
-## [1.0.1] - 2026-07-19
-
-### Fixed
-- Command (/nbktrp3) dont worked
 
 ## [1.0.0] - 2026-07-01
 
@@ -92,14 +65,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Localized in English (`enUS`) and German (`deDE`) with a metatable fallback for other locales.
 - Client support: Retail, Classic Mists of Pandaria, Classic Era.
 
-[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.1.0...HEAD
-[1.0.8]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.8...1.1.0
-[1.0.7]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.7...1.0.8
-[1.0.7]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.6...1.0.7
-[1.0.6]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.5...1.0.6
-[1.0.5]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.4...1.0.5
-[1.0.4]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.3...1.0.4
-[1.0.3]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.2...1.0.3
-[1.0.2]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.1...1.0.2
-[1.0.1]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.0.1
+[Unreleased]: https://github.com/Nerzors/tRP3_NBK/compare/1.1.1...HEAD
+[1.0.8]: https://github.com/Nerzors/tRP3_NBK/compare/1.0.0...1.1.1
 [1.0.0]: https://github.com/Nerzors/tRP3_NBK/releases/tag/1.0.0

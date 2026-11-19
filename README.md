@@ -136,19 +136,17 @@ Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
 ## Where to find NerzorsBlacklistKeeper
 
 **CurseForge**
-> Retail (12.1.5) / Classic Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
+> Retail / Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
 - All-in-One: <https://www.curseforge.com/wow/addons/nerzorsblacklistkeeper>
 - Core Only <https://www.curseforge.com/wow/addons/nerzorsblacklistkeepercore>
 
 **Wago.io**
-> Retail (12.1.5) / Classic Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
+> Retail / Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
 - All-in-One: <https://addons.wago.io/addons/nerzorsblacklistkeeper>
 - Core Only: <https://addons.wago.io/addons/nerzorsblacklistkeepercore>
 
-**GitHub**
-
-- <https://github.com/Nerzors/NerzorsBlacklistKeeper>
-- <https://github.com/Nerzors/NerzorsBlacklistKeeperCore>
+**Official Website**
+- <https://nbk.nerzors.com/en/>
 
 <br/>
 
