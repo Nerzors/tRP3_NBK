@@ -6,10 +6,10 @@ https://github.com/Nerzors/tRP3_NBK
 
 Requires both Total RP 3 and NerzorsBlacklistKeeper.
   https://github.com/Total-RP/Total-RP-3
-  https://github.com/Nerzors/NerzorsBlacklistKeeper
+  https://github.com/Nerzors/NerzorsBlacklistKeeper | Requires version 2.3.0 or higher
 
-Author: Veplo (Discord: Veplo)
-Support: Nerzors.DE
+Author: Veplo (Discord: Veplo | https://github.com/Veplo-ops)
+Support: nbk.Nerzors.com/en/feedback
 Copyright by Nerzors.DE
 ============================================================
 ]]--
@@ -40,8 +40,6 @@ local function ratingStars(n)
 end
 
 -- Applies TRP3's sub-line font size to the LAST line of the tooltip.
--- Called right after each line WE add - not as a hook on AddDoubleLine,
--- which also resized every double line TRP3 adds itself.
 function TRP3NBK_Frame.FixFonts(small)
     small = small or false
     local size = TRP3_API.ui.tooltip.getSubLineFontSize()
@@ -84,7 +82,7 @@ end
 
 -- Only needed for NBK before 2.3.0 (LibNBKApi-1.0 MINOR 1). From MINOR 2 on
 -- NBK does this itself (api:FromUnitName, and every name query accepts the
--- WoW: Forever form directly).
+-- WoW: Forever form directly) https://nbk.nerzors.com/en/ .
 local function toNbkNameLegacy(name, realm)
     if not IS_FOREVER or not name or not realm or realm == "" then
         return name, realm
@@ -151,7 +149,6 @@ function TRP3NBK_Frame.Init()
         local remembered
         if not entry then
             if not cfg(TRP3NBK_Frame.Config.SHOW_REMEMBER) then return end
-            -- nil when the Remember Me module isn't installed
             remembered = api.GetRememberEntry and api:GetRememberEntry(name, realm)
             if not remembered then return end
         end
@@ -194,7 +191,7 @@ function TRP3NBK_Frame.Init()
                 addLine(color(DIM_HEX, L.ADDED_IN .. ":") .. " " .. remembered.zone,
                     mainColor.r, mainColor.g, mainColor.b, true)
             end
-            -- Mythic+ run ("Dungeon +13"), NBK 2.3.0 and later, Retail
+            -- Mythic+ run ("Dungeon +13"), NBK 2.3.0 and later, Only Retail
             if type(remembered.run) == "string" and remembered.run ~= "" then
                 addLine(color(DIM_HEX, (L.RUN) .. ":") .. " " .. remembered.run,
                     mainColor.r, mainColor.g, mainColor.b, true)
@@ -214,7 +211,6 @@ function TRP3NBK_Frame.Init()
         TRP3NBK_Frame.FixFonts()
 
         if cfg(TRP3NBK_Frame.Config.SHOW_REASON) then
-            -- entry.reason can be nil or "" - concatenating nil broke the tooltip.
             local reason = entry.reason
             local NBK = _G.NBK
             if reason and reason ~= "" and NBK and NBK.ReasonText then
@@ -259,7 +255,6 @@ function TRP3NBK_Frame.Init()
 
     if TRP3_CharacterTooltip then
         TRP3_CharacterTooltip:HookScript("OnShow", function(t)
-            -- Never let our part break TRP3's tooltip.
             local ok, err = pcall(renderTooltip, t)
             if not ok and err then geterrorhandler()(err) end
         end)
@@ -286,7 +281,6 @@ function TRP3NBK_Frame.Init()
             help     = L.CONFIG_TITLE_HELP,
             text     = L.CONFIG_TITLE_TEXT,
             callback = function()
-                -- NBK's own slash handler instead of typing into the chat box.
                 if SlashCmdList and SlashCmdList.NBK then
                     SlashCmdList.NBK("config")
                 end

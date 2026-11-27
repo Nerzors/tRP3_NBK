@@ -135,6 +135,10 @@ Translations are very welcome - open a PR against `locale/locale.<locale>.lua`.
 
 ## Where to find NerzorsBlacklistKeeper
 
+> [!CAUTION]
+> A minimum requirement from NBK is needed.
+> **Requires** NBK version *2.3.0* or *higher*
+
 **CurseForge**
 > Retail / Forever (1.60.x) / Classic Era (1.15.8) / Classic MoP (5.5.4)
 - All-in-One: <https://www.curseforge.com/wow/addons/nerzorsblacklistkeeper>

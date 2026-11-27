@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+> [!NOTE] 
+> A minimum requirement from NBK is needed. Check which version you have (/nbk -> look at the bottom center of the window)
+> Thanks! Should you encounter any bugs or similar issues, please feel free to leave a comment 
+> or reach out via our NBK website: https://nbk.nerzors.com/en/bugs
+
+> [!CAUTION]
+> **Requires** [NBK](https://nbk.nerzors.com/en/) version *2.3.0* or *higher*
+
+### Fixed
+- Stars should also be displayed.
+
 ## [1.1.1] - 2026-11-19
 
 ### Added
